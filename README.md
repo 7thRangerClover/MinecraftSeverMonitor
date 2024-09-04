@@ -18,6 +18,11 @@ This PowerShell script, `MinecraftServerMonitor.ps1`, is designed to monitor and
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/minecraft-server-monitor.git
+   
+2. **Configure the Script:**
+   - Open the `MinecraftServerMonitor.ps1` file.
+   - Replace `USERNAME` in the `Test-ServerRunning` function with the username of the account running the server.
+   - Ensure the `$serverPath` variable points to the correct location of your Minecraft server start script (e.g., `start.ps1`).
 
 
 # How to Set Up Auto-Login on Windows Using the Registry Editor
